@@ -9,8 +9,8 @@ submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 date:
 consensus: true
 v: 3
-area: Security
-workgroup: Web Authorization Protocol
+area: "Security"
+workgroup: "Web Authorization Protocol"
 keyword:
  - agent
  - agentic
@@ -24,10 +24,10 @@ keyword:
  - CFT
 venue:
   github: "skyfire-xyz/draft-skyfire-oauth-aml-methods"
-#  group: WG
-#  type: Working Group
-#  mail: WG@example.com
-#  arch: https://example.com/WG
+  group: "Web Authorization Protocol"
+  type: "Working Group"
+  mail: "oauth@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/oauth/"
   latest: "https://skyfire-xyz.github.io/draft-skyfire-oauth-aml-methods/draft-skyfire-oauth-aml-methods.html"
 
 author:
