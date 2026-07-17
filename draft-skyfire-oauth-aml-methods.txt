@@ -5,10 +5,10 @@
 Web Authorization Protocol                                    A. Agarwal
 Internet-Draft                                      Skyfire Systems Inc.
 Intended status: Standards Track                                M. Jones
-Expires: 15 January 2027                          Self-Issued Consulting
+Expires: 18 January 2027                          Self-Issued Consulting
                                                                   N. Ali
                                                                 Experian
-                                                            14 July 2026
+                                                            17 July 2026
 
 
                   Anti-Money Laundering Methods Values
@@ -30,6 +30,11 @@ About This Document
    aml-methods.html.  Status information for this document may be found
    at https://datatracker.ietf.org/doc/draft-skyfire-oauth-aml-methods/.
 
+   Discussion of this document takes place on the Web Authorization
+   Protocol Working Group mailing list (mailto:oauth@ietf.org), which is
+   archived at https://mailarchive.ietf.org/arch/browse/oauth/.
+   Subscribe at https://www.ietf.org/mailman/listinfo/oauth/.
+
    Source for this draft and an issue tracker can be found at
    https://github.com/skyfire-xyz/draft-skyfire-oauth-aml-methods.
 
@@ -48,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 15 January 2027.
+   This Internet-Draft will expire on 18 January 2027.
 
 Copyright Notice
 
@@ -132,7 +137,7 @@ Table of Contents
    sanctions screening and watchlist screening methods were used.
    Values used in the "aml" claim SHOULD be from those registered in the
    IANA "Anti-Money Laundering Methods" registry established by
-   (#amlRegistry); parties using this claim will need to agree upon the
+   Section 6.2; parties using this claim will need to agree upon the
    meanings of any unregistered values used, which may be context
    specific.
 
@@ -186,7 +191,7 @@ Table of Contents
 
    *  Change Controller: Michael B.  Jones - michael_b_jones@hotmail.com
 
-   *  Reference: (#amlClaim) of this specification
+   *  Reference: Section 3.1 of this specification
 
 6.2.  Anti-Money Laundering Methods Registry
 
@@ -194,7 +199,7 @@ Table of Contents
    Methods" registry for aml claim array element values.  The registry
    records the Anti-Money Laundering Method value and a reference to the
    specification that defines it.  This specification registers the
-   Anti-Money Laundering Method values defined in (#amlValues).
+   Anti-Money Laundering Method values defined in Section 3.2.
 
    Values are registered on an Expert Review [RFC5226] basis after a
    three-week review period on the <jwt-reg-review@ietf.org> mailing
@@ -271,7 +276,7 @@ Table of Contents
 
    *  Change Controller: IETF
 
-   *  Reference: (#ofacMethod) of this specification
+   *  Reference: Section 3.2.1 of this specification
 
 6.2.2.2.  "sanc" Method
 
@@ -281,7 +286,7 @@ Table of Contents
 
    *  Change Controller: IETF
 
-   *  Reference: (#sancMethod) of this specification
+   *  Reference: Section 3.2.2 of this specification
 
 6.2.2.3.  "watch" Method
 
@@ -291,7 +296,7 @@ Table of Contents
 
    *  Change Controller: IETF
 
-   *  Reference: (#watchMethod) of this specification
+   *  Reference: Section 3.2.3 of this specification
 
 6.2.2.4.  "pep" Method
 
@@ -302,7 +307,7 @@ Table of Contents
 
    *  Change Controller: IETF
 
-   *  Reference: (#pepMethod) of this specification
+   *  Reference: Section 3.2.4 of this specification
 
 6.2.2.5.  "adv" Method
 
@@ -312,7 +317,7 @@ Table of Contents
 
    *  Change Controller: IETF
 
-   *  Reference: (#advMethod) of this specification
+   *  Reference: Section 3.2.5 of this specification
 
 7.  References
 
