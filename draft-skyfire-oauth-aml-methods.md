@@ -155,7 +155,7 @@ For instance, values might indicate that both
 sanctions screening and watchlist screening methods were used.
 Values used in the "aml" claim SHOULD be from those registered in the
 IANA "Anti-Money Laundering Methods" registry
-established by (#amlRegistry);
+established by {{amlRegistry}};
 parties using this claim will need to agree upon the meanings of
 any unregistered values used, which may be context specific.
 
@@ -217,7 +217,7 @@ established by {{RFC7519}}.
 * Claim Name: aml
 * Claim Description: Anti-Money Laundering Methods
 * Change Controller: Michael B. Jones - michael_b_jones@hotmail.com
-* Reference: (#amlClaim) of this specification
+* Reference: {{amlClaim}} of this specification
 
 ## Anti-Money Laundering Methods Registry {#amlRegistry}
 
@@ -226,7 +226,7 @@ for `aml` claim array element values.
 The registry records the Anti-Money Laundering Method value
 and a reference to the specification that defines it.
 This specification registers the Anti-Money Laundering Method values
-defined in (#amlValues).
+defined in {{amlValues}}.
 
 Values are registered on an Expert Review
 {{RFC5226}} basis after a three-week review period on the &lt;jwt-reg-review@ietf.org&gt; mailing
@@ -303,35 +303,35 @@ Specification Document(s):
 * Anti-Money Laundering Method Name: ofac
 * Anti-Money Laundering Method Description: OFAC Compliance
 * Change Controller: IETF
-* Reference: (#ofacMethod) of this specification
+* Reference: {{ofacMethod}} of this specification
 
 #### "sanc" Method
 
 * Anti-Money Laundering Method Name: sanc
 * Anti-Money Laundering Method Description: Sanctions Screening
 * Change Controller: IETF
-* Reference: (#sancMethod) of this specification
+* Reference: {{sancMethod}} of this specification
 
 #### "watch" Method
 
 * Anti-Money Laundering Method Name: watch
 * Anti-Money Laundering Method Description: Watchlist Screening
 * Change Controller: IETF
-* Reference: (#watchMethod) of this specification
+* Reference: {{watchMethod}} of this specification
 
 #### "pep" Method
 
 * Anti-Money Laundering Method Name: pep
 * Anti-Money Laundering Method Description: Politically Exposed Persons Screening
 * Change Controller: IETF
-* Reference: (#pepMethod) of this specification
+* Reference: {{pepMethod}} of this specification
 
 #### "adv" Method
 
 * Anti-Money Laundering Method Name: adv
 * Anti-Money Laundering Method Description: Adverse Media Screening
 * Change Controller: IETF
-* Reference: (#advMethod) of this specification
+* Reference: {{advMethod}} of this specification
 
 
 --- back
