@@ -5,10 +5,10 @@
 Web Authorization Protocol                                    A. Agarwal
 Internet-Draft                                      Skyfire Systems Inc.
 Intended status: Standards Track                                M. Jones
-Expires: 18 January 2027                          Self-Issued Consulting
+Expires: 20 January 2027                          Self-Issued Consulting
                                                                   N. Ali
                                                                 Experian
-                                                            17 July 2026
+                                                            19 July 2026
 
 
                   Anti-Money Laundering Methods Values
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 January 2027.
+   This Internet-Draft will expire on 20 January 2027.
 
 Copyright Notice
 
@@ -324,16 +324,16 @@ Table of Contents
 7.1.  Normative References
 
    [AdverseMedia]
-              Reuters, T., "Adverse media screening: An overview", May
-              2025, <https://legal.thomsonreuters.com/blog/overview-
+              Thomson Reuters, "Adverse media screening: An overview",
+              May 2025, <https://legal.thomsonreuters.com/blog/overview-
               adverse-media-screening/>.
 
-   [OFAC]     Treasury, O. of F. A. C. U.S. D. of the., "Starting an
-              OFAC Compliance Program", January 2015,
-              <https://ofac.treasury.gov/faqs/topic/1596>.
+   [OFAC]     Office of Foreign Assets Control, U.S. Department of the
+              Treasury, "Starting an OFAC Compliance Program", January
+              2015, <https://ofac.treasury.gov/faqs/topic/1596>.
 
    [PEPs]     Moody's, "Identifying Politically Exposed Persons (PEPs)
-              and their associates", n.d.,
+              and their associates",
               <https://www.moodys.com/web/en/us/kyc/solutions/screen-
               monitor/peps.html>.
 
@@ -352,7 +352,7 @@ Table of Contents
 
    [Sanctions]
               Swift, "Why sanctions screening is critical for financial
-              institutions", n.d., <https://www.swift.com/risk-and-
+              institutions", <https://www.swift.com/risk-and-
               compliance/sanctions/why-sanctions-screening-critical-
               financial-institutions>.
 
@@ -370,12 +370,12 @@ Table of Contents
               <https://datatracker.ietf.org/doc/html/draft-skyfire-
               oauth-kyapay-token-00>.
 
-   [IANA.AMR] IANA, "Authentication Method Reference Values", n.d.,
+   [IANA.AMR] IANA, "Authentication Method Reference Values",
               <https://www.iana.org/assignments/authentication-method-
               reference-values>.
 
    [IANA.JWT.Claims]
-              IANA, "JSON Web Token Claims", n.d.,
+              IANA, "JSON Web Token Claims",
               <https://www.iana.org/assignments/jwt>.
 
    [OpenID.Core]
