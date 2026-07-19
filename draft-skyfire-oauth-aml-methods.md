@@ -54,29 +54,31 @@ normative:
     title: "Starting an OFAC Compliance Program"
     date: January 30, 2015
     author:
-      - name: Office of Foreign Assets Control, U.S. Department of the Treasury
+      - org: Office of Foreign Assets Control, U.S. Department of the Treasury
   Sanctions:
     target: https://www.swift.com/risk-and-compliance/sanctions/why-sanctions-screening-critical-financial-institutions
     title: "Why sanctions screening is critical for financial institutions"
     author:
-      - name: Swift
+      - org: Swift
+    date: false
   Watchlist:
     target: https://withpersona.com/blog/what-is-watchlist-screening/
     title: "What is watchlist screening? A complete guide"
     date: January 12, 2026
     author:
-      - name: persona
+      - org: persona
   PEPs:
     target: https://www.moodys.com/web/en/us/kyc/solutions/screen-monitor/peps.html
     title: "Identifying Politically Exposed Persons (PEPs) and their associates"
     author:
-      - name: Moody's
+      - org: Moody's
+    date: false
   AdverseMedia:
     target: https://legal.thomsonreuters.com/blog/overview-adverse-media-screening/
     title: "Adverse media screening: An overview"
     date: May 8, 2025
     author:
-      - name: Thomson Reuters
+      - org: Thomson Reuters
 
 informative:
   RFC5226:
@@ -92,14 +94,16 @@ informative:
       - name: Chuck Mortimore
   IANA.JWT.Claims:
     author:
-    - name: IANA
+    - org: IANA
     target: https://www.iana.org/assignments/jwt
     title: JSON Web Token Claims
+    date: false
   IANA.AMR:
     author:
-    - name: IANA
+    - org: IANA
     target: https://www.iana.org/assignments/authentication-method-reference-values
     title: Authentication Method Reference Values
+    date: false
 
 ...
 
