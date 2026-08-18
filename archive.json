@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-08-16T00:04:11.776032+00:00",
+  "timestamp": "2026-08-18T00:04:50.069846+00:00",
   "repo": "skyfire-xyz/draft-skyfire-oauth-aml-methods",
   "labels": [
     {
@@ -49,6 +49,23 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOTYuBUM8AAAABNFAHsA",
+      "title": "Proposal: add crypto-native AML method values (mixer, chain) to the aml registry",
+      "url": "https://github.com/skyfire-xyz/draft-skyfire-oauth-aml-methods/issues/1",
+      "state": "OPEN",
+      "author": "OceanAlt666",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Thanks for the `aml` claim + IANA \"AML Methods Values\" registry work \u2014 the JWT-claim + Expert-Review model is a clean fit for agent payments.\n\nOne gap for crypto-native / on-chain agents: the initial values (`ofac`, `sanc`, `watch`, `pep`, `adv`) are shaped for traditional finance and don't cover two checks that a payee-**address** screen routinely performs:\n\n- **`mixer`** \u2014 exposure to mixing services / tumblers (e.g. Tornado-type contracts). Distinct from a sanctions-list hit, though the two can co-occur.\n- **`chain`** \u2014 on-chain risk from tracing: tainted upstream funds (multi-hop), stablecoin issuer freeze (USDT/USDC), and address heuristics. This is the on-chain-native analogue to `adv` (adverse media).\n\nProposing these two as additional method values (happy to submit via the jwt-reg-review Expert Review process). A payee screen would then emit e.g. `aml: [\"ofac\", \"sanc\", \"mixer\", \"chain\"]` alongside its result, so a verifier can see *which* methods produced the verdict rather than trusting an opaque pass/fail.\n\nReference issuer that already produces exactly these categories with verifiable evidence, mapped to a KYA-token `aml` claim: https://github.com/OceanAlt666/agent-compliance-adapters \u2014 see `toKyaAmlClaim` in `adapters.mjs`. Glad to draft the registry text if that's useful.\n",
+      "createdAt": "2026-08-17T14:01:00Z",
+      "updatedAt": "2026-08-17T14:01:00Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": []
 }
