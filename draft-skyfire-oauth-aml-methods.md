@@ -171,26 +171,31 @@ are defined by this specification.
 
 ### "ofac" (OFAC Compliance) Method {#ofacMethod}
 
+{:vspace}
 ofac:
 : OFAC Compliance, as described in {{OFAC}}
 
 ### "sanc" (Sanctions Screening) Method {#sancMethod}
 
+{:vspace}
 sanc:
 : Sanctions Screening, as described in {{Sanctions}}
 
 ### "watch" (Watchlist Screening) Method {#watchMethod}
 
+{:vspace}
 watch:
 : Watchlist Screening, as described in {{Watchlist}}
 
 ### "pep" (Politically Exposed Persons Screening) Method {#pepMethod}
 
+{:vspace}
 pep:
 : Politically Exposed Persons Screening, as described in {{PEPs}}
 
 ### "adv" (Adverse Media Screening) Method {#advMethod}
 
+{:vspace}
 adv:
 : Adverse Media Screening, as described in {{AdverseMedia}}
 
@@ -269,6 +274,7 @@ and whether the registration description is clear.
 
 ### Registration Template
 
+{:vspace}
 Anti-Money Laundering Method Name:
 : The name requested (e.g., "sanc") for the authentication method
   or family of closely related authentication methods.
@@ -284,15 +290,18 @@ Anti-Money Laundering Method Name:
   unless the Designated Experts state that there is a compelling reason
   to allow an exception.
 
+{:vspace}
 Anti-Money Laundering Method Description:
 : Brief description of the Anti-Money Laundering Method
   (e.g., "Watchlist Screening").
 
+{:vspace}
 Change Controller:
 : For Standards Track RFCs, state "IETF". For others, give the name of the
   responsible party. Other details (e.g., postal address, email address, home page
   URI) may also be included.
 
+{:vspace}
 Specification Document(s):
 : Reference to the document or documents that specify the parameter,
   preferably including URIs that
@@ -345,6 +354,10 @@ Specification Document(s):
 {: numbered="false"}
 
 [[ to be removed by the RFC Editor before publication as an RFC ]]
+
+-01
+
+* Added {:vspace} syntax to definition list entries.
 
 -00
 
