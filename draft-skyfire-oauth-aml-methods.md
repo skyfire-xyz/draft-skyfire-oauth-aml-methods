@@ -371,7 +371,7 @@ for his contributions to the specification.
 
 -01
 
-* Addressed Jean Diaconu's review comments.
+* Described that the "aml" claim contains a set of anti-money laundering methods that succeeded.
 * Added {:vspace} syntax to definition list entries.
 
 -00
