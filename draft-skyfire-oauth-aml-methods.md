@@ -122,11 +122,16 @@ methods were employed.
 Compliance to Anti-Money Laundering (AML) and
 Countering the Financing of Terrorism (CFT) regulations
 is required in many jurisdictions worldwide.
-This specification defines the Anti-Money Laundering Methods (aml) claim
+This specification defines the "aml" (Anti-Money Laundering Methods) claim
 and values for it for declaring what Anti-Money Laundering (AML) and
 Countering the Financing of Terrorism (CFT) methods were employed.
 It also creates a registry for Anti-Money Laundering Methods Values
 and initializes the registry with the values defined in this specification.
+
+The usage of the "aml" (Anti-Money Laundering Methods) claim parallels that of the
+"amr" (Authentication Methods References) claim and uses parallel syntax.
+Presence of a value in the claim indicates that the use of the indicated
+anti-money laundering method succeeded.
 
 While this claim and values are general purpose
 and can be used in any JSON Web Token (JWT) {{RFC7519}},
@@ -350,6 +355,15 @@ Specification Document(s):
 
 --- back
 
+
+# Acknowledgments
+{: numbered="false"}
+
+We would like to thank
+Jean Diaconu
+for his contributions to the specification.
+
+
 # Document History
 {: numbered="false"}
 
@@ -357,6 +371,7 @@ Specification Document(s):
 
 -01
 
+* Addressed Jean Diaconu's review comments.
 * Added {:vspace} syntax to definition list entries.
 
 -00
