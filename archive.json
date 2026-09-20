@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-09-01T00:07:54.368903+00:00",
+  "timestamp": "2026-09-20T00:07:25.616833+00:00",
   "repo": "skyfire-xyz/draft-skyfire-oauth-aml-methods",
   "labels": [
     {
@@ -65,6 +65,38 @@
       "updatedAt": "2026-08-17T14:01:00Z",
       "closedAt": null,
       "comments": []
+    },
+    {
+      "number": 3,
+      "id": "I_kwDOTYuBUM8AAAABRrve8A",
+      "title": "Five normative references to vendor blogs and product pages",
+      "url": "https://github.com/skyfire-xyz/draft-skyfire-oauth-aml-methods/issues/3",
+      "state": "OPEN",
+      "author": "selfissued",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "From @jadiaconu's review:\n> [Claude]\n> 1. Five normative references to vendor blogs and product pages (Thomson Reuters, Moody's, Swift, Persona, plus a Treasury FAQ index) \u2014 two entirely undated, none definitional. FATF Recommendations / Glossary are the citable substitutes, and as informative references.\n\nWe should find more authoritative references where applicable, including possibly those from https://www.fatf-gafi.org/en/pages/fatf-glossary.html.\n",
+      "createdAt": "2026-09-17T01:25:12Z",
+      "updatedAt": "2026-09-17T01:25:12Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 4,
+      "id": "I_kwDOTYuBUM8AAAABRry-IA",
+      "title": "Security/privacy sections do not address false, stale, or sensitive AML assertions",
+      "url": "https://github.com/skyfire-xyz/draft-skyfire-oauth-aml-methods/issues/4",
+      "state": "OPEN",
+      "author": "selfissued",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "From @jadiaconu's review:\n> [GPT 5.6 Sol]\n> 5. Security/privacy sections do not address false, stale, or sensitive AML assertions.\n\nWe should add text addressing these situations.",
+      "createdAt": "2026-09-17T01:34:32Z",
+      "updatedAt": "2026-09-17T01:34:32Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -109,6 +141,32 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 5,
+      "id": "PR_kwDOTYuBUM8AAAABD-JI4g",
+      "title": "Address Jean Daiconu's review comments",
+      "url": "https://github.com/skyfire-xyz/draft-skyfire-oauth-aml-methods/pull/5",
+      "state": "OPEN",
+      "author": "selfissued",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Cc: @jadiaconu",
+      "createdAt": "2026-09-17T17:56:22Z",
+      "updatedAt": "2026-09-17T18:15:33Z",
+      "baseRepository": "skyfire-xyz/draft-skyfire-oauth-aml-methods",
+      "baseRefName": "main",
+      "baseRefOid": "3dc579034807cd27c1f2ee39a3c2d9d528dfbc8d",
+      "headRepository": "skyfire-xyz/draft-skyfire-oauth-aml-methods",
+      "headRefName": "mbj-jean",
+      "headRefOid": "5338bbdd6c0fca561fc5939c2accc01a24e71f55",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
