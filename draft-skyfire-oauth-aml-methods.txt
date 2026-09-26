@@ -5,10 +5,10 @@
 Web Authorization Protocol                                    A. Agarwal
 Internet-Draft                                      Skyfire Systems Inc.
 Intended status: Standards Track                                M. Jones
-Expires: 4 March 2027                             Self-Issued Consulting
+Expires: 30 March 2027                            Self-Issued Consulting
                                                                   N. Ali
                                                                 Experian
-                                                          31 August 2026
+                                                       26 September 2026
 
 
                   Anti-Money Laundering Methods Values
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 March 2027.
+   This Internet-Draft will expire on 30 March 2027.
 
 Copyright Notice
 
@@ -92,6 +92,7 @@ Table of Contents
    7.  References
      7.1.  Normative References
      7.2.  Informative References
+   Acknowledgments
    Document History
    Authors' Addresses
 
@@ -99,12 +100,17 @@ Table of Contents
 
    Compliance to Anti-Money Laundering (AML) and Countering the
    Financing of Terrorism (CFT) regulations is required in many
-   jurisdictions worldwide.  This specification defines the Anti-Money
-   Laundering Methods (aml) claim and values for it for declaring what
+   jurisdictions worldwide.  This specification defines the "aml" (Anti-
+   Money Laundering Methods) claim and values for it for declaring what
    Anti-Money Laundering (AML) and Countering the Financing of Terrorism
    (CFT) methods were employed.  It also creates a registry for Anti-
    Money Laundering Methods Values and initializes the registry with the
    values defined in this specification.
+
+   The usage of the "aml" (Anti-Money Laundering Methods) claim
+   parallels that of the "amr" (Authentication Methods References) claim
+   and uses parallel syntax.  Presence of a value in the claim indicates
+   that the use of the indicated anti-money laundering method succeeded.
 
    While this claim and values are general purpose and can be used in
    any JSON Web Token (JWT) [RFC7519], one use case for them is use in
@@ -396,11 +402,19 @@ Table of Contents
               DOI 10.17487/RFC5226, May 2008,
               <https://www.rfc-editor.org/rfc/rfc5226>.
 
+Acknowledgments
+
+   We would like to thank Jean Diaconu for his contributions to the
+   specification.
+
 Document History
 
    [[ to be removed by the RFC Editor before publication as an RFC ]]
 
    -01
+
+   *  Described that the "aml" claim contains a set of anti-money
+      laundering methods that succeeded.
 
    *  Added {:vspace} syntax to definition list entries.
 
